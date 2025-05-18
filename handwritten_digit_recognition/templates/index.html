@@ -206,7 +206,7 @@
                     const imageData = canvas.toDataURL('image/png');
                     
                     // Send to API
-                    const response = await fetch('/predict', {
+                    const response = await fetch('https://ml-fb0g.onrender.com/predict', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
